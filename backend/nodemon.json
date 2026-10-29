@@ -1,0 +1,26 @@
+{
+  "verbose": true,
+  "ignore": [
+    "scratch/*",
+    "scratch/**/*",
+    "uploads/*",
+    "uploads/**/*",
+    "temp/*",
+    "temp/**/*",
+    "logs/*",
+    "logs/**/*",
+    "*.mp3",
+    "*.pdf"
+  ],
+  "watch": [
+    "controllers/",
+    "models/",
+    "routes/",
+    "services/",
+    "middleware/",
+    "config/",
+    "utils/",
+    "server.js"
+  ],
+  "ext": "js,mjs,json"
+}
